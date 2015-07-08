@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout
+    	android:id="@+id/panel"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:weightSum="1"
+    	android:layout_marginTop="10dip">
+    	
+    		<Button
+        		android:id="@+id/newJobBotton"
+				android:text="@string/newjob"
+        		android:drawableLeft="@drawable/add"
+        		android:drawablePadding="10dip"
+        		android:gravity="center_vertical"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:paddingLeft="35dip"
+        		android:layout_weight=".5" />
+    		
+    		<Button
+        		android:id="@+id/settingButton"
+				android:text="@string/setting"
+        		android:drawableLeft="@drawable/setting"
+        		android:drawablePadding="10dip"
+        		android:gravity="center_vertical"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:paddingLeft="35dip"
+        		android:layout_weight=".5" />
+    		
+	</LinearLayout>
+	
+	<ListView
+        android:id="@+id/jobListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panel" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        android:text="@string/side" />
+    
+    <Spinner 
+        android:id="@+id/sideSpiner"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:entries="@array/list_side" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        android:text="@string/so" />
+    
+    <EditText 
+        android:id="@+id/soEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:inputType="number"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        android:text="@string/type" />
+    
+    <Spinner 
+        android:id="@+id/typeSpiner"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:entries="@array/job_type" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        android:text="@string/cusname" />
+    
+    <EditText 
+        android:id="@+id/cusEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    
+    <LinearLayout
+    	android:id="@+id/panel"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:weightSum="1"
+    	android:layout_marginTop="10dip">
+    	
+    		<Button
+        		android:id="@+id/takeButton"
+				android:text="@string/takephoto"
+        		android:drawableLeft="@drawable/camera"
+        		android:drawablePadding="10dip"
+        		android:gravity="center_vertical"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:paddingLeft="35dip"
+        		android:layout_weight=".5" />
+    		
+    		<Button
+        		android:id="@+id/uploadButton"
+				android:text="@string/upload"
+        		android:drawableLeft="@drawable/upload"
+        		android:drawablePadding="10dip"
+        		android:gravity="center_vertical"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:paddingLeft="35dip"
+        		android:layout_weight=".5" />
+    		
+	</LinearLayout>
+    
+</LinearLayout>

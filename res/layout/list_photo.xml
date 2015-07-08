@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+ 
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/thumbImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:contentDescription="@string/app_name" />
+ 
+    </LinearLayout>
+ 
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="@string/note"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+ 
+    <TextView
+        android:id="@+id/noteTextView"
+        android:layout_width="170dip"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:layout_below="@id/note"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail" />
+ 
+     <ImageView
+        android:id="@+id/delImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/del"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+ 
+</RelativeLayout>

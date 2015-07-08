@@ -1,0 +1,78 @@
+<resources>
+
+    <string name="app_name">Creation</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="newjob">New Job</string>
+    <string name="setting">Setting</string>
+	<string name="cusname">Customer Name</string>
+	<string name="side">Side</string>
+	<string name="so">S/O</string>
+	<string name="type">Type</string>
+	<string name="takephoto">Take Photo</string>
+	<string name="note">Note</string>
+	<string name="upload">Upload</string>
+	<string name="username">Username</string>
+	
+	<string name="pen_settings">Pen settings</string>
+    <string name="pen_settings_preset_empty">No preset settings</string>
+    <string name="pen_settings_preset_delete_title">Delete</string>
+    <string name="pen_settings_preset_delete_msg">Selected pen preset will be permanently erased</string>
+    <string name="pen_settings_preset_exist">Already exist</string>
+    <string name="pen_settings_preset_maximum_msg">Reached maximum number(12) of preset slot</string>
+    <string name="eraser_settings">Eraser settings</string>
+    <string name="clear_all">Clear all</string> 
+    <string name="text_settings">Text settings</string>
+    <string name="text_settings_tab_font">Font</string>
+    <string name="text_settings_tab_paragraph">Paragraph</string>
+    <string name="text_settings_tab_paragraph_align">Align</string>
+    <string name="textbox_hint">Insert Text</string>
+    <string name="texttitle">enter text here</string>
+    <string name="filling_settings">Filling settings</string>
+    <string name="settingview_close_btn_desc">close</string>
+    <string name="insertcanvasimage">Insert Canvas Image in EditText</string>
+    <string name="settinginformation">Setting Information</string>  
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="nomusic">No music</string>
+    <string name="setimagefilter">Set Image Filter</string>
+    <string name="selectimage">Select Image</string>
+    <string name="setfilterlevel">Set Filter Level</string>
+    <string name="up">▲</string>
+    <string name="left">◀</string>
+    <string name="right">▶</string>
+    <string name="down">▼</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="done">Done</string>
+    <string name="xcoordinates">X coordinates</string>
+    <string name="ycoordinates">Y coordinates</string>
+    <string name="pressure">Pressure</string>
+    <string name="tool">Tool</string>
+    <string name="touch">Touch</string>
+    <string name="hover">Hover</string>
+    <string name="context_identifier">Context identifier</string>
+    
+    <string name="user_font_name1">Chococooky</string>
+    <string name="user_font_name2">Rosemary</string>
+	
+	<string-array name="job_type">
+        <item>วัดพื้นที่เพื่อออกแบบ</item>
+        <item>วางงานระบบ</item>
+        <item>ตรวจสอบพื้นที่ก่อนติดตั้ง</item>
+        <item>ควบคุมการติดตั้ง</item>
+        <item>ส่งมอบงาน</item>
+    </string-array>
+    
+	<string-array name="list_side">
+        <item>รัชดา</item>
+        <item>รังสิต</item>
+        <item>ปิ่นเกล้า</item>
+        <item>สุวรรณภูมิ</item>
+        <item>พระราม 2</item>
+        <item>เกษตรนวมินทร์</item>
+        <item>พัทยา</item>
+        <item>หัวหิน</item>
+    </string-array>
+    
+</resources>
